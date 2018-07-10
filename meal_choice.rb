@@ -35,9 +35,8 @@ def dinner(meal_choice3="salmon")
 end
 
 breakfast("cereal")
-lunch("ham")
-dinner("sushi")
-
 breakfast
-lunch
-dinner
+lunch("chicken")
+lunch()
+dinner("sushi")
+dinner()
