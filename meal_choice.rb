@@ -31,7 +31,7 @@ def lunch(meal_choice2="grilled cheese")
 end
 
 def dinner(meal_choice3="salmon")
-  puts "Evening is the best time for #{meal_choice3}"
+  puts "Evening is the best time for #{meal_choice3}!"
 end
 
 breakfast()
