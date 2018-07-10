@@ -22,19 +22,19 @@ puts snacks("Swedish fish")
 puts snacks
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
 
-def breakfast(breakfast="frosted flakes")
-  puts "Morning is the best time for #{breakfast}!"
+def breakfast(meal_choice1="frosted flakes")
+  puts "Morning is the best time for #{meal_choice1}!"
 end
 
-def lunch(lunch="grilled cheese")
-  puts "Afternoon is the best time for #{lunch}!"
+def lunch(meal_choice2="grilled cheese")
+  puts "Afternoon is the best time for #{meal_choice2}!"
 end
 
-def dinner(dinner="salmon")
-  puts "Evening is the best time for #{dinner}!"
+def dinner(meal_choice3="salmon")
+  puts "Evening is the best time for #{meal_choice3}!"
 end
 
-breakfast("cereal")
+breakfast("pancakes")
 lunch("ham")
 dinner("sushi")
 
