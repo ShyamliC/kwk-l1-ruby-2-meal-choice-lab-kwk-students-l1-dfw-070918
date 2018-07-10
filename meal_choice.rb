@@ -34,7 +34,7 @@ def dinner(meal_choice3="salmon")
   puts "Evening is the best time for #{meal_choice3}!"
 end
 
-breakfast("pancakes")
+breakfast("cereal")
 lunch("ham")
 dinner("sushi")
 
